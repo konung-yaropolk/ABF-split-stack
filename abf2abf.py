@@ -22,13 +22,12 @@ def convert(filename, sweep_n):
         template.sweepY[0: s.MAX_X-s.MIN_X] = buffer_array[s.MIN_X + s.STEP*i : s.MAX_X + s.STEP*i]
 
     
-    template.saveABF1(filename + '_training_series_splitted_by_sweeps.abf', s.OUTPUT_FREQ*1000)
+    template.saveABF1(filename + s.SAVE_FILE_NAME_ENDING, s.OUTPUT_FREQ*1000)
     print(filename, ' proceed successfull')
 
 for path, sweep_number in s.QUEUE:
     try:
         convert(s.DIR+path, sweep_number)
-    except:
-        print(path, ' ERROR, wrong path or floating point ABF file!!!')
+    except Exception as e: print(e)
 
 print('\nQueue proceed successfull')
