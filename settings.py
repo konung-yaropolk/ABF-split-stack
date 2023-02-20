@@ -1,4 +1,4 @@
-# Consts:
+# Parameters:
 
 TEMPLATE_ABF = 'template.abf'
 
@@ -11,7 +11,7 @@ MAX_X = 510  # ms
 
 OUTPUT_FREQ = 20  # Samplerate in kHz
 
-DIR = 'C:/Users/admin/ownCloud/Students/Data/Yarik/Yarik_Iowa_data'
+DIR = 'C:/Users/admin/ownCloud/Students/Data/Yarik/Yarik_Iowa_data'    # full path to directory with files, leave empty if you run this script in it
 SAVE_FILE_NAME_ENDING = '_training_series_splitted_by_sweeps.abf'
 
 QUEUE = [
