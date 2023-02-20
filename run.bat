@@ -1,3 +1,3 @@
 echo off
-python abf2abf.py >log.txt
+python ABF-split-stack.py >log.txt
 pause
