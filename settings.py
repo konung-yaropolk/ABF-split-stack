@@ -11,8 +11,8 @@ MAX_X = 510  # ms
 
 OUTPUT_FREQ = 20  # Samplerate in kHz
 
-DIR = 'D:/Lab Work Files/Patch-clamp data'    # full path to directory with files, leave empty if you run this script in it
-SAVE_FILE_NAME_ENDING = '__test.abf'
+DIR = 'F:/Lab Work Files/Patch-clamp data'    # full path to directory with files, leave empty if you run this script in it
+SAVE_FILE_NAME_ENDING = '_training_series_splitted_by_sweeps.abf'
 
 QUEUE = [
     
@@ -262,8 +262,10 @@ QUEUE = [
 # ["/MCU_Project_Yariks_data/2021_06_03/2021_06_03_0037_baselined.abf", 12],
 # ["/MCU_Project_Yariks_data/2021_06_03/2021_06_04_0004_baselined.abf", 12],
 # ["/MCU_Project_Yariks_data/2021_06_05_M2/2021_06_05_0012_baselined.abf", 12],
+# ["/MCU_Project_Yariks_data/2021_06_05_M2/2021_06_05_0017_baselined.abf", 12],
 # ["/MCU_Project_Yariks_data/2021_06_05_M2/2021_06_06_0007_baselined.abf", 12],
 # ["/MCU_Project_Yariks_data/2021_06_05_M2/2021_06_06_0008_baselined.abf", 12],
+# ["/MCU_Project_Yariks_data/2021_06_05_M2/2021_06_06_0013_baselined.abf", 12],
 # ["/MCU_Project_Yariks_data/2021_06_07/2021_06_07_0023_baselined.abf", 12],
 # ["/MCU_Project_Yariks_data/2021_06_07/2021_06_07_0028_baselined.abf", 12],
 # ["/MCU_Project_Yariks_data/2021_06_07/2021_06_07_0035_baselined.abf", 12],
