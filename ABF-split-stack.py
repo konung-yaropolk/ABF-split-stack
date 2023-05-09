@@ -23,7 +23,7 @@ def convert(filename, sweep_n):
         template.sweepY[s.MIN_X : s.MAX_X] = buffer_array[s.MIN_X + s.STEP*i : s.MAX_X + s.STEP*i]
 
     
-    template.saveABF1(filename + s.SAVE_FILE_NAME_ENDING, s.OUTPUT_FREQ*1000)
+    template.saveABF1(filename + s.SAVE_FILE_NAME_ENDING)  # , s.OUTPUT_FREQ*1000) - to save in different samplerate
     print(filename, ' proceed successfull')
 
 for path, sweep_number in s.QUEUE:
