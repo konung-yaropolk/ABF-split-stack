@@ -441,6 +441,17 @@ QUEUE = [
 # ['/MCU_Project_Yariks_data/2023_05_08/2023_05_09_0006.abf', 12],
 # ['/MCU_Project_Yariks_data/2023_05_08/2023_05_09_0007.abf', 22],
 # ['/MCU_Project_Yariks_data/2023_05_08/2023_05_09_0008.abf', 13],
+#
+# ['/MCU_Project_Yariks_data/2023_05_10/2023_05_10_0007.abf', 12],
+# ['/MCU_Project_Yariks_data/2023_05_10/2023_05_10_0008.abf', 12],
+# ['/MCU_Project_Yariks_data/2023_05_10/2023_05_10_0009.abf', 22],
+# ['/MCU_Project_Yariks_data/2023_05_10/2023_05_10_0010.abf', 12],
+# ['/MCU_Project_Yariks_data/2023_05_10/2023_05_10_0015.abf', 12],
+# ['/MCU_Project_Yariks_data/2023_05_10/2023_05_10_0016.abf', 12],
+# ['/MCU_Project_Yariks_data/2023_05_10/2023_05_10_0018.abf', 12],
+# ['/MCU_Project_Yariks_data/2023_05_10/2023_05_10_0019.abf', 6],
+# ['/MCU_Project_Yariks_data/2023_05_10/2023_05_10_0020.abf', 22],
+# ['/MCU_Project_Yariks_data/2023_05_10/2023_05_10_0021.abf', 12],
 
 
 ]
