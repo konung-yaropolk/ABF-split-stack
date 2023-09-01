@@ -14,12 +14,15 @@ OUTPUT_FREQ = 20  # Samplerate in kHz
 DIR = 'F:/Lab Work Files/Patch-clamp data'    # full path to directory with files, leave empty if you run this script in it
 SAVE_FILE_NAME_ENDING = '_training_series_splitted_by_sweeps.abf'
 
-QUEUE = [
+FILES_LIST = [
     
 # Список імен abf файлів без росширення, в лапках, розділені комами, номер трейсу для нарізки (починаючи з нульового)
 
-## 2M Ca:
-#
+
+# # MCU Project:
+# 
+# # 2M Ca:
+# 
 # ['/MCU_Project_Yariks_data/2021_04_15/2021_04_15_0000_baselined.abf', 12],
 # ['/MCU_Project_Yariks_data/2021_04_19/2021_04_19_0006_baselined.abf', 12],
 # ['/MCU_Project_Yariks_data/2021_04_19/2021_04_19_0009_baselined.abf', 12],
@@ -244,6 +247,7 @@ QUEUE = [
 # ['/MCU_Project_Yariks_data/2021_06_03/2021_06_03_0041_baselined.abf', 12],
 # 
 # 
+# 
 #
 # # 1M Ca:
 # 
@@ -286,7 +290,8 @@ QUEUE = [
 # ['/MCU_Project_Yariks_data/2021_06_07/2021_06_08_0047_baselined.abf', 12],
 # ['/MCU_Project_Yariks_data/2021_06_08/2021_06_08_0077_baselined.abf', 12],
 # 
-#
+# 
+# 
 # 
 # # 2M & 1M in 2022:
 # 
@@ -353,6 +358,7 @@ QUEUE = [
 # ['/MCU_Project_Yariks_data/2022_09_29/2022_09_30_0017_baselined.abf', 12],
 # ['/MCU_Project_Yariks_data/2022_09_29/2022_09_30_0023_baselined.abf', 12],
 # ['/MCU_Project_Yariks_data/2022_09_29/2022_09_30_0024_baselined.abf', 12],
+#
 #
 #
 #
@@ -452,6 +458,9 @@ QUEUE = [
 # ['/MCU_Project_Yariks_data/2023_05_10/2023_05_10_0019.abf', 6],
 # ['/MCU_Project_Yariks_data/2023_05_10/2023_05_10_0020.abf', 22],
 # ['/MCU_Project_Yariks_data/2023_05_10/2023_05_10_0021.abf', 12],
+
+
+
 
 
 ]
