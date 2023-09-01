@@ -28,7 +28,7 @@ def convert(filename, sweep_n):
 
 for path, sweep_number in s.FILES_LIST:
     try:
-        convert(s.DIR+path, sweep_number)
+        convert(s.DIRECTORY + path, sweep_number)
     except Exception as e: print(e)
 
 print('\nQueue proceed successfull')

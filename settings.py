@@ -11,7 +11,7 @@ MAX_X = 510  # ms
 
 OUTPUT_FREQ = 20  # Samplerate in kHz
 
-DIR = 'F:/Lab Work Files/Patch-clamp data'    # full path to directory with files, leave empty if you run this script in it
+DIRECTORY = 'F:/Lab Work Files/Patch-clamp data'    # full path to directory with files, leave empty if you run this script in it
 SAVE_FILE_NAME_ENDING = '_training_series_splitted_by_sweeps.abf'
 
 FILES_LIST = [
