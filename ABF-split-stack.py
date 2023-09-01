@@ -26,7 +26,7 @@ def convert(filename, sweep_n):
     template.saveABF1(filename + s.SAVE_FILE_NAME_ENDING)  # , s.OUTPUT_FREQ*1000) - to save in different samplerate
     print(filename, ' proceed successfull')
 
-for path, sweep_number in s.QUEUE:
+for path, sweep_number in s.FILES_LIST:
     try:
         convert(s.DIR+path, sweep_number)
     except Exception as e: print(e)
