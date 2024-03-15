@@ -1,3 +1,5 @@
+#!/usr/bin/env python3
+
 # Parameters:
 
 TEMPLATE_ABF = 'template.abf'
@@ -466,3 +468,6 @@ FILES_LIST = [
 
 ]
 
+if __name__ == '__main__':
+    ABF_split_stack = __import__("ABF-split-stack")
+    ABF_split_stack.main()
